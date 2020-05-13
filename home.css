@@ -195,7 +195,7 @@ body{
 
 
 .fourth{
-    background: transparent url('./home/did-you-know-background@3x.png') 0% 0% no-repeat padding-box;
+    background: transparent url('./home/did-you-know-background.png') 0% 0% no-repeat padding-box;
     opacity: 1;
     background-size: 100%;
     height: 1198px;
@@ -308,7 +308,7 @@ body{
     width: 640px;
     height: 568px;
     float: right;
-    background: url("./home/lady-baby@3x.png") no-repeat;
+    background: url("./home/lady-baby.png") no-repeat;
     background-size: contain;
     bottom: 170px;
 }
@@ -506,7 +506,7 @@ body{
     .first{
         width: 768px;
         height: 710px;
-        background: transparent url('./home/annie-spratt-135307-unsplash@3x.png') 0% 0% no-repeat padding-box;
+        background: transparent url('./home/annie-spratt-135307-unsplash.png') 0% 0% no-repeat padding-box;
         background-size: cover;
         background-attachment: fixed;
         background-position: 80% top;
@@ -769,7 +769,7 @@ body{
         width: 100%;
         height: 592px;
         background-color: #354463;
-        background: transparent url('./home/annie-spratt-135307-unsplash@3x.png') 0% 0% no-repeat padding-box;
+        background: transparent url('./home/annie-spratt-135307-unsplash.png') 0% 0% no-repeat padding-box;
         background-size:cover;
     }
     .first-text{
