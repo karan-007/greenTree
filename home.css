@@ -1,0 +1,1053 @@
+@font-face {
+    font-family: flood;
+    src: url(./home/FloodStd.otf);
+  }
+body{
+    font-family: Helvetica;
+}
+.navbar {
+  height: 128px;
+}
+.nav-links-mob{
+    display:none;
+}
+
+.navbar-heading {
+  font-size: 22px;
+  font-family: Helvetica;
+  font-weight: bold;
+  color: #354463;
+  line-height: normal;
+}
+
+.nav-links {
+  position: relative;
+  left: 50px;
+}
+.nav-link-text {
+    font-family: Helvetica;
+  position: relative;
+  margin-left: 100px;
+  color: #354463;
+}
+.nav-button {
+    font-family: Helvetica;
+  border: none;
+  padding: 10px 18px;
+  background-color: #C1F7D5;
+  font-weight: bold;
+  font-size: 22px;
+  border-radius: 100px;
+  color:#354463;
+}
+.first{
+    background: transparent url('./home/annie-spratt-135307-unsplash.png') 0% 0% no-repeat padding-box;
+    background-size: 100% 672px;
+    height: 672px;
+}
+.first-text{
+    height: 416px;
+    width: 544px;
+    position: relative;
+    top: 70px;
+    background-color: white;
+}
+.first-heading-div{
+    width: 416px;
+    margin: auto;
+    padding-top: 70px;
+}
+.first-heading{
+    font-weight: bold;
+    font-size: 44px;
+    color: #354463;
+    line-height: 55px;
+}
+.first-link{
+    margin-top: 40px;
+}
+.first-link a{
+    color: #354463;
+    text-decoration: none;
+    text-decoration: underline;
+}
+.first-style{
+    font-family: flood;
+    color: #FFFFFF;
+    width: 296px;
+    height: 224px;
+    font-size: 72px;
+    line-height: 75px;
+    position: absolute;
+    left: 650px;
+    bottom: 45%;
+}
+.first-topic{
+    width: 160px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #354463;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    position: relative;
+    top:90px;
+    left: 65px;
+    z-index: 3;
+}
+
+
+.second{
+    height: 240px;
+    background-color: #C1F7D5;
+}
+.second-card{
+    margin-top: 30px;
+    width: 232px;
+}
+.second-card-head{
+    color: #354463;
+    font-size: 28px;
+    font-weight: bold;
+}
+.second-card-text{
+    color: #354463;
+    font-size: 16px;
+}
+.second-topic{
+    width: 160px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: #354463;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    z-index: 3;
+    position: relative;
+    left: 43%;
+    bottom: 20px;
+}
+
+
+
+.third{
+    background-color: #354463;
+    height:1000px;
+}
+.third-topic{
+    width: 160px;
+    height: 40px;
+    color: #354463;
+    background-color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    position: relative;
+    z-index: 3;
+    top: 90px;
+}
+.third-heading{
+    font-size: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: 130px;
+}
+.third-card{
+    margin-top: 120px;
+    height: 528px;
+}
+.third-body{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.third-card-img{
+    height: 224px;
+    position: relative;
+    bottom: 32px;
+    left: 32px;
+}
+.third-tab{
+    display: none;
+}
+.third-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #354463;
+}
+.third-text{
+    font-size: 16px;
+    color: #354463;
+}
+.third-button{
+    width: 160px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #C1F7D5;
+    color: #354463;
+    border-radius: 100px;
+    border: none;
+    padding-top: 10px;
+}
+
+
+
+
+.fourth{
+    background: transparent url('./home/did-you-know-background@3x.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+    background-size: 100%;
+    height: 1198px;
+}
+.fourth-content{
+    position: relative;
+    top: 140px;
+}
+.fourth-heading{
+    font-size: 80px;
+    font-family: flood;
+    color: #FFFFFF;
+    line-height: normal;
+}
+.fourth-button{
+    width: 160px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #C1F7D5;
+    color: #354463;
+    border-radius: 100px;
+    border: none;
+    margin-top: 50px;
+}
+.fourth-card{
+    width: 544px;
+    height: 200px;
+    background-color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.fourth-card-content{
+    width: 440px;
+    margin: 0 auto;
+    padding-top: 35px;
+
+}
+.fourth-card-heading{
+    font-size: 44px;
+    font-weight: bold;
+    color: #354463;
+}
+.fourth-card-text{
+    width: 336px;
+    font-size: 16px;
+    color: #354463;
+}
+.fourth-fb{
+    width: 32px;
+    height: 32px;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+}
+.fourth-t{
+    width: 32px;
+    height: 32px;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    left: 32px;
+    border-radius: 50%;
+}
+.fourth-topic{
+    width: 160px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color:  #354463;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    position: absolute;
+    z-index: 3;
+    left: 70px;
+    top: -20px;
+}
+
+
+
+.fifth{
+    height: 824px;
+}
+.fifth-content{
+    width: 544px;
+    height: 344px;
+    background-color: #354463;
+    position: relative;
+    z-index: 5;
+    top: 285px;
+}
+.fifth-head{
+    width: 416px;
+    margin: 0 auto;
+    line-height: normal;
+    padding-top: 50px;
+}
+.fifth-heading{
+    font-size: 28px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.fifth-text{
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-top: 30px;
+}
+.fifth-img{
+    position: relative;
+    width: 640px;
+    height: 568px;
+    float: right;
+    background: url("./home/lady-baby@3x.png") no-repeat;
+    background-size: contain;
+    bottom: 170px;
+}
+.fifth-button{
+    width: 160px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #C1F7D5;
+    color: #354463;
+    border-radius: 100px;
+    border: none;
+    margin-top: 107px;
+}
+.fifth-topic{
+    font-weight: bold;
+    width: 160px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color:  #354463;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    position: absolute;
+    z-index: 3;
+    position: relative;
+    bottom: 20px;
+    left: 75px;
+}
+
+
+.sixth{
+    height: 1726px;
+    background-color: #354463;
+}
+.sixth-heading{
+    font-family: flood;
+    font-size: 72px;
+    color: #FFFFFF;
+    position: relative;
+}
+.sixth-3{
+    display: none;
+}
+.sixth-img{
+    width: 576px;
+    height: 576px;
+}
+.sixth-topic{
+    font-weight: bold;
+    width: 160px;
+    height: 40px;
+    color: #354463;
+    background-color:   #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 14px;
+    position: relative;
+    z-index: 3;
+}
+.sixth-card-head{
+    font-size: 42px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 45px;
+    line-height: normal;
+}
+.sixth-card-text{
+    font-size: 22px;
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.sixth-button{
+    width: 160px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #C1F7D5;
+    color: #354463;
+    border-radius: 100px;
+    border: none;
+    margin-top: 40px;
+}
+.sixth-1{
+   
+    display: none;
+}
+.sixth-2{
+    margin-top: 80px;
+}
+.sixth-container{
+    padding-top: 100px;
+}
+.sixth-4{
+    display: block;
+    margin-top: 80px;
+}
+
+
+
+.seven{
+    height: 208px;
+    background-color: #C1F7D5;
+}
+.seven-heading{
+    font-size: 27px;
+    font-weight: bold;
+    color: #354463;
+    line-height: normal;
+}
+.seven-input{
+    width: 352px;
+    height: 48px;
+    border-radius: 100px;
+    border: none;
+}
+.seven-button{
+    width: 160px;
+    height: 48px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #354463;
+    color:  #C1F7D5;
+    border-radius: 100px;
+    border: none;
+}
+::-webkit-input-placeholder{
+    color: #354463;
+    font-size: 20px;
+    padding-left: 30px;
+    opacity: 1;
+}
+.seven-content{
+    padding-top: 70px;
+}
+
+
+
+.eight{
+    height: 370px;
+}
+.eight-content{
+    line-height: normal;
+    padding-top: 100px;
+}
+.eight-head-1{
+    font-size: 22px;
+    font-weight: bold;
+    color: #354463;
+}
+.eight-head-2{
+    font-size: 14px;
+    color: #354463;
+}
+.eight-text{
+    font-size: 14px;
+    color: #354463;
+}
+.eight-head-3{
+    font-size: 44px;
+    font-family: flood;
+    color: #354463;
+    float: right;
+}
+.eight-line{
+    width: 160px;
+    color: #354463;
+}
+
+
+
+
+
+@media only screen and (max-width:769px){
+    .navbar-heading{
+        position: relative;
+        top:12px;
+    }
+    .nav-links{
+        position: relative;
+        top:60px;
+        left: -330px;
+    }
+    .nav-link-text{
+        margin-left: 50px;
+    }
+    .nav-button{
+        position: relative;
+        left:500px;
+        bottom: 25px;
+        font-size: 18px;
+    }
+
+
+    .first{
+        width: 768px;
+        height: 710px;
+        background: transparent url('./home/annie-spratt-135307-unsplash@3x.png') 0% 0% no-repeat padding-box;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: 80% top;
+    }
+    .first-text{
+        width: 640px;
+        height: 309px;
+        top: 300px;
+    }
+    .first-heading-div{
+        position: relative;
+        top: -30px;
+        width:512px;
+    }
+    .first-heading{
+        font-size: 36px;
+        line-height: inherit;
+    }
+    .first-style{
+        position: relative;
+        left: 0px;
+        top: -560px;
+        font-size: 44px;
+        line-height: 55px;
+    }
+    .first-topic{
+        top:320px;
+        left:90px;
+    }
+
+
+
+    .second{
+        height: 336px;
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+    .second-card{
+        margin-top: 10px;
+    }
+    .second-card-head{
+        font-size: 22px;
+    }
+    .second-topic{
+        left: 260px;
+        bottom: 40px;
+    }
+
+
+    .third-dex{
+        display: none;
+    }
+    .third-tab{
+        display: block;
+    }
+    .third-card-tab{
+        margin-top: 100px;
+    }
+    .third-heading{
+        font-size: 36px;
+    }
+    .third-img-tab{
+        width: 288px;
+        height: 201px;
+        position: relative;
+        bottom: 35px;
+        left: 35px;
+    }
+    .third-title-tab{
+        font-size: 30px;
+        font-weight: bold;
+        color: #354463;
+        margin-top: 10px;
+    }
+    .third-text-tab{
+        font-size: 18px;
+        color: #354463;
+    }
+    .third-button-tab{
+        width: 160px;
+        height: 48px;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: #C1F7D5;
+        color: #354463;
+        border-radius: 100px;
+        border: none;
+        padding-top: 10px;
+        float: right;
+    }
+    .third{
+        height: 1600px;
+    }
+
+
+
+
+    .fourth{
+        height: 930px;
+        background-size: cover;
+    }
+    .fourth-heading{
+        font-size: 44px;
+    }
+    .fourth-card{
+        width: 384px;
+        height: 152px;
+    }
+    .fourth-card-heading{
+        font-size: 36px;
+    }
+    .fourth-card-text{
+        font-size: 16px;
+        width: 224px;
+    }
+    .fourth-card-content{
+        width: 330px;
+        padding-top: 20px;
+    }
+    .fb{
+        width: 30%;
+    }
+    .t{
+        width: 50%;
+    }
+    .fourth-content{
+        top: 80px;
+    }
+
+    .fifth{
+        height: 1000px;
+    }
+    .fifth-img{
+        width: 90%;
+        float: left;
+    }
+    .fifth-content{
+        width: 90%;
+        height: 287px;
+        float: right;
+        top: 590px;
+    }
+    .fifth-head{
+        width: 489px;
+    }
+    .fifth-heading{
+        font-size: 26px;
+    }
+    .fifth-text{
+        font-size: 14px;
+    }
+    .fifth-button{
+        margin-top: 80px;
+    }
+
+
+
+    .sixth{
+        height: 1225px;
+    }
+    .sixth-heading{
+        font-size: 44px;
+    }
+    .sixth-img{
+        width: 288px;
+        height: 288px;
+    }
+    .sixth-card-head{
+        font-size: 28px;
+        margin-top: 40px;
+    }
+    .sixth-card-text{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .sixth-button{
+        margin-top: 20px;
+    }
+    .sixth-1{
+        
+        display: none;
+    }
+    .sixth-2{
+        margin-top: 80px;
+    }
+    .sixth-container{
+        padding-top: 65px;
+    }
+    .sixth-4{
+        margin-top: 60px;
+        display: block;
+    }
+
+
+
+    .seven{
+        height: 255px;
+    }
+    .seven-input{
+        width: 448px;
+        margin-top: 20px;
+    }
+    .seven-button{
+        margin-top: 20px;
+    }
+
+
+    .eight-head-1{
+        font-size: 32px;
+        position: relative;
+        bottom: 50px;
+    }
+    .eight-content{
+        line-height: 10px;
+        text-align: center;
+    }
+    .eight-head-3{
+        float: none;
+        font-size: 44px;
+        position: relative;
+        top: 40px;
+    }
+
+    
+
+}
+
+
+@media only screen and (max-width:425px){
+    .navbar{
+        height: 200px;
+    }
+    .navbar-heading{
+        font-size: 18px;
+        position: relative;
+        top: -10px;
+    }
+    .nav-links-mob{
+        display:block;
+        top: -10px;
+        font-family: Helvetica;
+        color: #354463;
+        position: relative;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-button{
+        position: relative;
+        top:10px;
+        left:0px;
+        width: 500px;
+        font-size: 18px;
+    }
+
+
+    .first{
+        width: 100%;
+        height: 592px;
+        background-color: #354463;
+        background: transparent url('./home/annie-spratt-135307-unsplash@3x.png') 0% 0% no-repeat padding-box;
+        background-size:cover;
+    }
+    .first-text{
+        width: 312px;
+        height: 240px;
+        top: 280px;
+        left: 20px;
+    }
+    .first-heading-div{
+        width: 278px;
+        text-align: center;
+    }
+    .first-heading{
+        font-size: 22px;
+        
+    }
+    .first-link {
+        text-align: center;
+    }
+    .first-style{
+        margin-top: 70px;
+    }
+    .first-topic{
+        position: absolute;
+        top: 460px;
+        left: 27%;
+    }
+
+
+    .second{
+        height: 328px;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+    .second-card{
+        margin-top: 20px;
+        width: 144px;
+    }
+    .second-card-head{
+        font-size: 18px;
+    }
+    .second-card-text{
+        font-size: 14px;
+    }
+    .second-topic{
+        left: 25%;
+        bottom: 20px;
+    }
+
+
+
+    .third{
+        height: 2050px;
+    }
+    .third-dex{
+        display: block;
+        margin: 0 auto;
+    }
+    .third-tab{
+        display: none;
+    }
+    .third-heading{
+        font-size: 22px;
+        line-height: normal;
+        text-align: center;
+    }
+    .third-title{
+        font-size: 26px;
+    }
+    .third-card-img{
+        width: 248px;
+        height: 176px;
+        bottom: 40px;
+        left: 0;
+        margin: 0 auto;
+    }
+    .third-card{
+        height: 480px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
+
+    .fourth{
+        height: 1060px;
+        background-size: cover;
+    }
+    .fourth-heading{
+        font-size: 44px;
+    }
+    .fourth-card{
+        width: 100%;
+        height: 136px;
+        margin-top: -15px;
+    }
+    .fourth-card-heading{
+        font-size: 22px;
+    }
+    .fourth-card-text{
+        font-size: 14px;
+        width: 198px;
+    }
+    .fourth-card-content{
+        width: 250px;
+        padding-top: 30px;
+    }
+    .fb{
+        width: 30%;
+        margin-bottom: -40px;
+    }
+    .t{
+        width: 50%;
+        margin-bottom: -10px;
+    }
+    .fourth-content{
+        top: 40px;
+    }
+    .fourth-topic{
+        top: 25px;
+        left: 100px;
+    }
+    .fourth-button{
+        margin-top: 40px;
+    }
+    .fourth-2{
+        margin-top: 60px;
+    }
+
+
+
+    .fifth{
+        height: 910px;
+    }
+    .fifth-img{
+        width: 100%;
+        float: left;
+        bottom: 270px;
+    }
+    .fifth-content{
+        width: 100%;
+        height: 340px;
+        text-align: center;
+        float: right;
+        top: 430px;
+    }
+    .fifth-head{
+        width: 250px;
+        padding-top: 30px;
+    }
+    .fifth-heading{
+        font-size: 23px;
+    }
+    .fifth-text{
+        font-size: 14px;
+    }
+    .fifth-button{
+        margin-top: 70px;
+    }
+    .fifth-topic{
+        left: 0px;
+        margin: 0 auto;
+    }
+
+
+
+    .sixth{
+        height: 1800px;
+    }
+    .sixth-2{
+        display: none;
+    }
+    .sixth-3{
+        display: block;
+    }
+    .sixth-4{
+        display: none;
+    }
+    .sixth-heading{
+        font-size: 44px;
+        text-align: center;
+        line-height: 50px;
+    }
+    .col-12{
+        width: 100%;
+    }
+    .sixth-img{
+        width: 100%;
+        height: 312px;
+        justify-items: center;
+        align-items: center;
+    }
+    .sixth-card-head{
+        font-size: 28px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .sixth-card-text{
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .sixth-button{
+        margin-top: 20px;
+    }
+    .sixth-1{
+        margin-top: 60px;
+        display: block;
+    }
+    .sixth-3{
+        margin-top: 80px;
+    }
+    .sixth-container{
+        padding-top: 65px;
+    }
+    .sixth-topic{
+        bottom: 330px;
+        margin: 0 auto;
+    }
+
+
+
+    .seven{
+        height: 216px;
+    }
+    .seven-input{
+        width: 192px;
+    }
+    .seven-heading{
+        font-size: 22px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 14px;
+        padding-left: 16px;
+    }
+    .seven-button{
+        width: 112px;
+        font-size: 16px;
+    }
+    .seven-content{
+        padding-top: 40px;
+    }
+
+
+
+
+    .eight{
+        height: 400px;
+    }
+    .eight-head-1{
+        font-size: 22px;
+        line-height: 30px;
+        bottom: 10px;
+    }
+    .eight-content{
+        padding: 40px;
+    }
+    .eight-head-3{
+        font-size: 32px;
+        line-height: 30px;
+        top: 30px;
+    }
+    .eight-head-2{
+        font-size: 5px;
+        font-weight: bold;
+    }
+    .eight-text{
+        font-size: 5px;
+    }
+    .eight-text-content{
+        margin-top: 20px;
+        line-height: 10px;
+        text-align: left;
+        text-decoration: underline;
+    }
+    .eight-line{
+        width: 60px;
+    }
+
+
+}
